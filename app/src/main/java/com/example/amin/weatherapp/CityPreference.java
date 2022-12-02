@@ -10,6 +10,7 @@ import android.content.SharedPreferences;
 public class CityPreference {
     SharedPreferences prefs;
 
+
     public CityPreference(Activity activity){
         prefs = activity.getPreferences(Activity.MODE_PRIVATE);
     }
